@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 
 
 var {mongoose} = require('./db/mongoose');
-var {Todo} = require('./models/todos')
+var {Todo} = require('./models/todos');
 var {User} = require('./models/users');
 
 var app = express();
